@@ -1,0 +1,17 @@
+header {
+    width:100%;
+    text-align:center;
+    position:fixed;
+    top:0;
+    background-color: blue;
+    color:white;
+}
+
+main {
+    margin-top:60px;
+}
+
+.searchCol {
+    height:100%;
+    border:black;
+}
