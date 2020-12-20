@@ -19,19 +19,16 @@
             <div class="row">
                 <div class="col-lg-3 searchCol">
                     <p style="font-weight: bold;">Search for a city</p>
-                    <input id="searchtext"><button id="searchbtn" style="display:inline;">Search</button>
+                    <input id="searchtext" type="text"><button id="searchbtn" style="display:inline;">Search</button>
                     <div class="card" style="width: 18rem;">
-                        <ul class="list-group list-group-flush" style="margin-right: 10px;">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                        <ul class="list-group list-group-flush" id="history" style="margin-right: 10px;">
+                            
                         </ul>
-                        <!-- The above bootstrap list may need to be added by a js function -->
                     </div>
                 </div>
                 <div class="col-lg-9 result">
                     <div class="card">
-                        <h5 class="card-header">City Name result/date</h5>
+                        <h3 class="card-header">City Name result/date</h3>
                         <div class="card-body">
                             <p class="card-text temp">Temp</p>
                             <p class="card-text humid">humidity</p>
@@ -42,7 +39,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h5>5-Day Forecast</h5>
+                            <h3>5-Day Forecast</h3>
                         </div>
                         <div class="card-group">
                             <div class="card">
