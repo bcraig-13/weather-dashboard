@@ -22,11 +22,19 @@ main {
 }
 
 .fdf {
-    background-color:blue;
     color:white;
-    font-size:14px;
+    font-size:16px;
+}
+
+.fdfb {
+    background-color: blue;
 }
 
 h5 {
     font-weight: bold;
+    color:white;
+}
+
+.card {
+    margin-right: 10px;
 }
