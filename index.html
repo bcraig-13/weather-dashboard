@@ -22,17 +22,17 @@
                     <input id="searchtext" type="text"><button id="searchbtn" style="display:inline;">Search</button>
                     <div class="card" style="width: 18rem;">
                         <ul class="list-group list-group-flush" id="history" style="margin-right: 10px;">
-                            
+                            <!-- Search history will go here -->
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-9 result">
                     <div class="card">
-                        <h3 class="card-header">City Name result/date</h3>
+                        <h3 class="card-header" id="mainCity"></h3>
                         <div class="card-body">
-                            <p class="card-text temp">Temp:</p>
-                            <p class="card-text humid">Humidity:</p>
-                            <p class="card-text wind-speed">Wind Speed:</p>
+                            <p class="card-text temp">Temp: <span id="mainTemp"></span></p>
+                            <p class="card-text humid">Humidity: <span id="mainHum"></span></p>
+                            <p class="card-text wind-speed">Wind Speed: <span id="mainWs"></span></p>
                             <br>
                             <br>
                         </div>
