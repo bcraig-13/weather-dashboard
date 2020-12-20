@@ -21,3 +21,12 @@ main {
     font-size: 22px;
 }
 
+.fdf {
+    background-color:blue;
+    color:white;
+    font-size:14px;
+}
+
+h5 {
+    font-weight: bold;
+}
