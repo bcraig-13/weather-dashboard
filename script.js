@@ -25,7 +25,7 @@ function searchBtn() {
         //data will be placed before .response
         //Display the following in the .result div--
         $("#mainIcon").attr("src", "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
-        $("#mainCity").text(data.name + " Weather");
+        $("#mainCity").text(data.name + " Weather" + data.);
         $("#mainTemp").text(data.main.temp + "°");
         $("#mainHum").text(data.main.humidity + " %");
         $("#mainWs").text(data.wind.speed + " mph");
