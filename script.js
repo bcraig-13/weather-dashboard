@@ -100,20 +100,16 @@ function forecast() {
         $("#day-four-temp").append(dayFourTemp + "°");
         $("#day-four-hum").append(dayFourHum + " %");
         //DAY 5 - NOT READING IN OPEN WEATHER API
+        var dayFiveEl = moment().add(5, "days").format("M/D");
+        var dayFiveIcon = data.list[40].weather[0].icon;
+        var dayFiveImg = $("<img>").attr("src", "http://openweathermap.org/img/w/" + dayFiveIcon + ".png");
+        var dayFiveTemp = data.list[40].main.temp;
+        var dayFiveHum = data.list[40].main.humidity;
         
-
-        // var dayFiveEl = moment().add(5, "days").format("M/D");
-        // var dayFiveIcon = data.list[40].weather[0].icon;
-        // var dayFiveImg = $("<img>").attr("src", "http://openweathermap.org/img/w/" + dayFiveIcon + ".png");
-        // var dayFiveTemp = data.list[40].main.temp;
-        // var dayFiveHum = data.list[40].main.humidity;
-        
-        // $(".day-five-date").append(dayFiveEl);
-        // $("#day-five-img").append(dayFiveImg);
-        // $("#day-five-temp").append(dayFiveTemp + "°");
-        // $("#day-five-hum").append(dayFiveHum + " %");
-
-        //put this at the end
+        $(".day-five-date").append(dayFiveEl);
+        $("#day-five-img").append(dayFiveImg);
+        $("#day-five-temp").append(dayFiveTemp + "°");
+        $("#day-five-hum").append(dayFiveHum + " %");
         
     });
 }
