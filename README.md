@@ -1,30 +1,8 @@
-HTML Page
--dashboard heading
--container
-	-row
-	-left column
-		-city search input and button
-		-city search history
+### MY WEATHER APP
 
-	-right column
-		-Current weather conditions
-		--City Name
-		--Current Date
-		--Current Weather Icon
-		--Temp
-		--Humidity
-		--Wind Speed
-		--UV Index (might need to skip this step)
+My Weather App displays the weather for the current day and the forecast for the next 5 days.
 
-		-5 day forecast
-		--cards for the next 5 days
+## USAGE
 
--Each card
---date
---weather icon
---temp
---humidity
+Enter the city name into the search bar and click search. The current weather and forecast for the next 5 days will be displayed. A search history will appear below the search bar. In the future, the user will be able to click on the city's name in the search history and it will pull up the selected city's weather information.
 
--Events
--user clicks on search history item
--User clicks on submit search button
